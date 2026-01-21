@@ -4,10 +4,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://adam16.github.io',
+	base: '/hermannslauf-training-2026/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: "Hermann'26",
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Adam16/hermannslauf-training-2026' }],
 			sidebar: [
 				{
 					label: 'Guides',
